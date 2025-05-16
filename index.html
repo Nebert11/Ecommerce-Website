@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neb Shop</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJleQdGYaUluLr4lVDOEA1ocMy" crossorigin="anonymous">
+        <link rel="stylesheet" href="contact.html">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="images/logo.png" width="125px">
+                    </div>
+
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="about_us.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" 
+                    onclick="menuToggle()">
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Give your fashion<br>A New Style!</h1>
+                        <p>Success isn't always about greatness. It's about 
+                            consistency. Consistent<br>hard work gains success. Greatness will come.
+                        </p>
+                        <a href="#" class="btn">Explore Now &#8594;</a>
+                    </div>
+
+                    <div class="col-2">
+                        <img src="images/image6.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- featured categories -->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/category-1.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-2.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- featured products -->
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="products.html"><img src="images/product-1.jpg" alt=""></a>
+                    <a href="products.html"><h4>Red T-shirt</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                    <a href="product-page.html" class="btn">View</a>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-2.jpg" alt="">
+                    <h4>Black Sports Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$105.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-3.jpg" alt="">
+                    <h4>Grey Casual Trouser</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$65.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-4.jpg" alt="">
+                    <h4>Navy-Blue Polo T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$45.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+                
+            </div>
+
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg" alt="">
+                    <h4>Close Casual Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$90.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-6.jpg" alt="">
+                    <h4>Black Puma T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$38.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg" alt="">
+                    <h4>HRX Socks</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$26.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-8.jpg" alt="">
+                    <h4>Fossil Adult Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$41.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="">
+                    <h4>Black Rolstar Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$40.50</p>
+                    <a href="" class="btn">View</a>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="">
+                    <h4>Black Sports Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$85.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-11.jpg" alt="">
+                    <h4>Gray Casual Flat Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$88.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg" alt="">
+                    <h4>Black Nike Track Trouser</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$44.00</p>
+                    <a href="" class="btn">View</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- offer -->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/exclusive.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on NebStore</p>
+                        <h1>Smart Band 4</h1>
+                        <small>The Mi Smart Band 4 features a 39.9% larger
+                            (than Mi Band 3) AMOLED color full-touch display with 
+                            adjustable brightness, so everything is as clear as can be.
+                        </small>
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+       <!-- Testmonials -->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Absolutely in love with my new outfits from NebStore! The quality is top-notch and the fit is perfect. I’ve already received so many compliments. 
+                            Will definitely be shopping here again!</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="images/user-1.png" alt="">
+                        <h3>Peter Wong</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Stylish, affordable, and fast delivery — what more could I ask for? 
+                            I ordered a jacket and a pair of sneakers, and both exceeded my expectations. Highly recommend for fashion lovers!
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="images/user-2.png" alt="">
+                        <h3>Mike Miles</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>NebStore has become my go-to for trendy fashion pieces. Their customer service is friendly and responsive, 
+                            and their clothes always arrive in great condition. I’m obsessed!
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="images/user-3.png" alt="">
+                        <h3>Katerina Osteen</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png" alt="">
+                            <img src="images/app-store.png" alt="">
+                        </div>
+                    </div> -->
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png">
+                        <p>Our Purpose is to sustainable make the pleasure and benefits
+                            of quality wear accessible to many.
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>About Us</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copy-right">Copyright 2025 - Nebert Kuria</p>
+            </div>
+        </div>
+
+          <!-- Toggle Menu -->
+        <script src="scripts.js"></script>
+    </body>
+</html>
